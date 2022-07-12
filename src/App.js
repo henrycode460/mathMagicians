@@ -1,13 +1,17 @@
+import React from 'react';
+import { Calculator } from './components/Calculator';
+import './style.css';
 
-import './App.css';
+class App extends React.Component  {
+  render() {
+    return(
+   <Calculator/>
 
-function App() {
-  return (
-    <div> 
-      <h1>Hello Math Magicians Setup</h1>
-
-    </div>
-  );
+    )
+  }
+  
 }
+
+
 
 export default App;
