@@ -1,0 +1,51 @@
+.mainContainer {
+  height: 80vh;
+  width: 70vh;
+  background-color: rgb(214 201 201);
+  margin: 0 auto;
+}
+
+.buttonWrapper {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 4px;
+  margin-top: 40px;
+}
+
+.outputScreen {
+  grid-column: 1 / -1;
+  color: white;
+  text-align: right;
+  padding: 0.1rem;
+  font-size: 4rem;
+  overflow: hidden;
+  background-color: rgb(16 158 158);
+}
+
+.buttonClick {
+  display: grid;
+  place-content: center;
+  background-color: rgb(234 221 221);
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.functBtn {
+  background-color: rgb(234 221 221);
+  color: black;
+}
+
+.extraBtn {
+  background-color: rgb(227 159 31);
+}
+
+.zero {
+  grid-column: 1 / span 2;
+  place-content: unset;
+  align-items: center;
+  padding-left: 2rem;
+}
