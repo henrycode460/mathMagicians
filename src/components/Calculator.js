@@ -29,7 +29,7 @@ const clickFunction = (e) => {
                 <button type="button" onClick={clickFunction} value="4" className="buttonClick ">4</button>
                 <button type="button" onClick={clickFunction} value="5" className="buttonClick ">5</button>
                 <button type="button" onClick={clickFunction} value="6" className="buttonClick ">6</button>
-                <button type="button" onClick={clickFunction} value="/" className="buttonClick  additionBtn extraBtn">/</button>
+                <button type="button" onClick={clickFunction} value="/" className="buttonClick  additionBtn extraBtn">÷</button>
                 <button type="button" onClick={clickFunction} value="1" className="buttonClick ">1</button>
                 <button type="button" onClick={clickFunction} value="2" className="buttonClick ">2</button>
                 <button type="button" onClick={clickFunction} value="3" className="buttonClick ">3</button>
