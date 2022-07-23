@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(36 98 143);
+}
+
+.mainContainer {
+  height: 70vh;
+  width: 67vh;
+  background-color: rgb(214 201 198);
+  margin: 0 auto;
+}
+
+.buttonWrapper {
+  display: grid;
+  height: 99%;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.parentCalculte {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 60px;
+  margin-top: 40px;
+}
+
+.calDescript {
+  padding: 20px 30px;
+  color: rgb(245 163 11);
+}
+
+.outputScreen {
+  grid-column: 1 / -1;
+  color: white;
+  text-align: right;
+  padding: 0.1rem;
+  font-size: 4rem;
+  overflow: hidden;
+  background-color: rgb(16 158 158);
+}
+
+.buttonClick {
+  display: grid;
+  place-content: center;
+  background-color: rgb(234 221 221);
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.functBtn {
+  background-color: rgb(234 221 221);
+  color: black;
+}
+
+.extraBtn {
+  background-color: rgb(227 159 31);
+}
+
+.zero {
+  grid-column: 1 / span 2;
+  place-content: unset;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.logoStyle {
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: rgb(245 163 11);
+}
+
+.navigation {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.nav-link {
+  padding-right: 21px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: rgb(245 163 11);
+}
+
+.homeText {
+  padding: 20px 60px;
+  text-align: justify;
+  color: rgb(245 163 11);
+  font-size: 18px;
+}
+
+.home-welc {
+  padding: 40px 60px;
+  text-align: justify;
+  color: black;
+  font-size: 30px;
+}
+
+.quote-detail {
+  font-size: 25px;
+  text-align: center;
+  padding: 100px;
+}
+
+.homeTextTwo {
+  padding: 0 60px;
+  text-align: justify;
+  color: rgb(245 163 11);
+  font-size: 18px;
+}
+
+.navigation .nav-header {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navigation .nav-link:hover {
+  color: black;
+}
