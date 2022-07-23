@@ -9,7 +9,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Link to Live Demo
-- [Live Demo](https://henrycode460.github.io/mathMagicians/)
+- [Live Demo heroku](https://create-mathmagicians.herokuapp.com/Home)
+- [Live Demo netlify](https://62dbe0c80123020a3dafdc15--unrivaled-alfajores-1925b6.netlify.app/Home)
 
 
 
