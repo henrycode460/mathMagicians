@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Quote from './components/Quote';
 
 import Header from './components/Header';
-import { Calculator } from './components/Calculator';
+import Calculator from './components/Calculator';
 
 class App extends React.Component {
   render() {
