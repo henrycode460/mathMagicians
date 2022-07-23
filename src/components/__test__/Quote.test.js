@@ -1,5 +1,5 @@
 import {render, screen} from '@testing-library/react';
-import Quote from "./Quote.js"
+import Quote from "../Quote.js"
 
 test('render math quote', () => {
     render (<Quote/>);

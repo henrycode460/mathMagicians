@@ -1,6 +1,6 @@
 import {render, screen} from '@testing-library/react';
 
-import Calculator from './Calculator.js'
+import Calculator from '../Calculator.js'
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
